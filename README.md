@@ -1,5 +1,5 @@
-# [Name] example
-An example for Advanced Scene Manager that shows how to make a [quick description].
+# Scene streaming example
+An example for Advanced Scene Manager that shows how to setup a scene streaming level.
 
 Usage:
 1. Clone
