@@ -1,5 +1,7 @@
 fileFormatVersion: 2
-guid: d63f598203e5717498b0a4755065f8ac
+guid: d276c38e8214a324aaf23f167d4a81eb
+labels:
+- ASM:Streams
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 0
