@@ -15,17 +15,31 @@ MonoBehaviour:
   m_collections:
   - {fileID: 11400000, guid: a0c8be9b718f1c64ab0a9e1a7d5e05ef, type: 2}
   - {fileID: 11400000, guid: 01f809e9a0113c64eaa1e66965c0e839, type: 2}
+  m_startupScene: 
   m_loadingScreen: 
   m_splashScreen: 
-  m_createCameraForSplashScreen: 1
   m_useDefaultPauseScreen: 1
-  m_enableCrossSceneReferences: 0
-  m_standalone:
-  - 
+  m_includeFadeLoadingScene: 1
+  m_standalone: []
   m_startupLoadingScreen: Assets/AdvancedSceneManager/System/Defaults/Fade Loading
     Screen.unity
   m_backgroundLoadingPriority: 1
   m_enableChangingBackgroundLoadingPriority: 0
+  m_tags:
+    m_throw: 1
+    keys: []
+    values: []
+  m_createCameraDuringStartup: 1
+  m_dynamicCollections:
+  - title: 
+    isAuto: 0
+    scenes:
+    - 
+    - Assets/AdvancedSceneManager/System/Defaults/Fade Loading Screen.unity
+  m_dynamicCollectionPaths: []
+  m_blacklist:
+    isWhitelist: 0
+    paths: []
   tagDefinitions:
   - name: Default
     label: 
@@ -45,7 +59,3 @@ MonoBehaviour:
     color: {r: 0, g: 0, b: 0, a: 0}
     closeBehavior: 0
     openBehavior: 1
-  m_tags:
-    m_throwOnDeserializeWhenKeyValueMismatch: 1
-    keys: []
-    values: []

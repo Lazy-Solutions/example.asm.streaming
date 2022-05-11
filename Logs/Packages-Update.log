@@ -1,0 +1,12 @@
+
+=== Wed May 11 19:24:34 2022
+
+Packages were changed.
+Update Mode: updateDependencies
+
+The following packages were added:
+  com.unity.ide.visualstudio@2.0.14
+The following packages were updated:
+  com.unity.ide.rider from version 1.1.4 to 3.0.13
+  com.unity.ide.vscode from version 1.2.4 to 1.2.5
+  com.unity.postprocessing from version 2.3.0 to 3.2.1
