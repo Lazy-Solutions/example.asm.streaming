@@ -1,5 +1,5 @@
-﻿using AdvancedSceneManager.Callbacks;
-using System.Collections;
+﻿using System.Collections;
+using AdvancedSceneManager.Callbacks;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -20,6 +20,7 @@ public class GameStart : MonoBehaviour, ISceneOpen
         //from the regular button, let's check for that here
         if (!AdvancedSceneManager.SceneManager.runtime.wasStartedAsBuild)
             Debug.Log("This tutorial has to be started as build (play button in Scene Manager Window)");
+
     }
 
 }

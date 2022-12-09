@@ -15,6 +15,7 @@ MonoBehaviour:
   m_collections:
   - {fileID: 11400000, guid: a0c8be9b718f1c64ab0a9e1a7d5e05ef, type: 2}
   - {fileID: 11400000, guid: 01f809e9a0113c64eaa1e66965c0e839, type: 2}
+  m_removedCollections: []
   m_startupScene: 
   m_loadingScreen: 
   m_splashScreen: 
@@ -30,6 +31,10 @@ MonoBehaviour:
     keys: []
     values: []
   m_createCameraDuringStartup: 1
+  m_unloadUnusedAssetsForStandalone: 1
+  m_checkForDuplicateSceneOperations: 1
+  m_preventSpammingEventMethods: 0
+  m_spamCheckCooldown: 0.5
   m_dynamicCollections:
   - title: 
     isAuto: 0
