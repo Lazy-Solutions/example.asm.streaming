@@ -1,17 +1,20 @@
 ﻿using System.Collections;
+using AdvancedSceneManager;
 using AdvancedSceneManager.Callbacks;
+using AdvancedSceneManager.Core;
+using AdvancedSceneManager.Models;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class GameStart : MonoBehaviour, ISceneOpen
 {
 
-    public UnityEvent _onGameStart;
+    public Scene[] scenesToOpen;
 
     public IEnumerator OnSceneOpen()
     {
-        _onGameStart.Invoke();
-        yield break;
+        //We're creating a scene operation directly here, since we need to ignore the queue,
+        //as ASM will otherwise freeze (due too the queuing system)
+        yield return SceneOperation.Add(SceneManager.standalone, ignoreQueue: true).Open(scenesToOpen);
     }
 
     void Start()
