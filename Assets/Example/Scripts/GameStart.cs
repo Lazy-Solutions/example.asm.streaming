@@ -13,7 +13,7 @@ public class GameStart : MonoBehaviour, ISceneOpen
     public IEnumerator OnSceneOpen()
     {
         //We're creating a scene operation directly here, since we need to ignore the queue,
-        //as ASM will otherwise freeze (due too the queuing system)
+        //as ASM will otherwise freeze (as multiple items in the queue are waiting for each other)
         yield return SceneOperation.Add(SceneManager.standalone, ignoreQueue: true).Open(scenesToOpen);
     }
 
