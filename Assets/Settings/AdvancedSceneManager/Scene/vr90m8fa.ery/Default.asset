@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: Default
   m_EditorClassIdentifier: 
   m_id: vr90m8fa.ery
-  m_sceneAsset: {fileID: 102900000, guid: 7c8005961b5779a4f82b1c25a3d83f64, type: 3}
   m_path: Assets/Example/Scenes/Default.unity
+  m_sceneAsset: {fileID: 102900000, guid: 7c8005961b5779a4f82b1c25a3d83f64, type: 3}
   m_isLoadingScreen: 0
   m_isSplashScreen: 0
   m_keepOpenWhenCollectionsClose: 0
   m_keepOpenWhenNewCollectionWouldReopen: 1
   m_openOnStartup: 0
+  m_openOnPlayMode: 0
   m_autoOpenInEditor: 0
   m_autoOpenInEditorScenes: []
   m_isLocked: 0
   m_lockMessage: 
+  m_crossSceneReferences: []
   m_sceneLoader: 

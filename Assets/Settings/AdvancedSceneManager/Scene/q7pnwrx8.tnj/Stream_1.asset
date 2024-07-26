@@ -13,15 +13,17 @@ MonoBehaviour:
   m_Name: Stream_1
   m_EditorClassIdentifier: 
   m_id: q7pnwrx8.tnj
-  m_sceneAsset: {fileID: 102900000, guid: b923c518f281ae546bad0a99ce9a21d9, type: 3}
   m_path: Assets/Example/Scenes/Stream_1.unity
+  m_sceneAsset: {fileID: 102900000, guid: b923c518f281ae546bad0a99ce9a21d9, type: 3}
   m_isLoadingScreen: 0
   m_isSplashScreen: 0
   m_keepOpenWhenCollectionsClose: 0
   m_keepOpenWhenNewCollectionWouldReopen: 1
   m_openOnStartup: 0
+  m_openOnPlayMode: 0
   m_autoOpenInEditor: 0
   m_autoOpenInEditorScenes: []
   m_isLocked: 0
   m_lockMessage: 
+  m_crossSceneReferences: []
   m_sceneLoader: 

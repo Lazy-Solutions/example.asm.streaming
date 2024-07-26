@@ -1,9 +1,4 @@
-﻿#if UNITY_EDITOR && !ADVANCED_SCENE_MANAGER
-
-using UnityEditor;
-using UnityEngine;
-
-static class Example
+﻿static class Example
 {
 
     [InitializeOnLoadMethod]
@@ -55,4 +50,3 @@ static class Example
     }
 
 }
-#endif
